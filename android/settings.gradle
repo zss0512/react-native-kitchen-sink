@@ -1,0 +1,53 @@
+rootProject.name = 'KitchenSink'
+
+include ':app'
+
+include ':react-native-des'
+project(':react-native-des').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-des/android')
+
+include ':react-native-zip'
+project(':react-native-zip').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-zip/android')
+
+include ':react-native-cordova'
+project(':react-native-cordova').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-cordova/android')
+
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-image-picker/android')
+
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-camera/android')
+
+include ':react-native-toast'
+project(':react-native-toast').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-toast/android')
+
+include ':react-native-file-transfer'
+project(':react-native-file-transfer').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-file-transfer/android')
+
+include ':react-native-dialogs'
+project(':react-native-dialogs').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-dialogs/android')
+
+include ':react-native-datetime-picker'
+project(':react-native-datetime-picker').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-datetime-picker/android')
+
+include ':react-native-splashscreen'
+project(':react-native-splashscreen').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-splashscreen/android')
+
+include ':react-native-sqlite'
+project(':react-native-sqlite').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-sqlite/android')
+
+include ':react-native-file'
+project(':react-native-file').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-file/android')
+
+include ':react-native-contacts'
+project(':react-native-contacts').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-contacts/android')
+
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(settingsDir, '../node_modules/react-native-fs/android')
+
+include ':RNWebIntent'
+project(':RNWebIntent').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webintent')
+
+
+include ':RNDeviceInfo'
+project(':RNDeviceInfo').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+
